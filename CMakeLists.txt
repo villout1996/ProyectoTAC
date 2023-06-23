@@ -14,7 +14,7 @@ find_library(SCL scl REQUIRED)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}")
 
 set(SOURCE_FILES
-  party.h)
+  main.cc)
 
 add_executable(run.x ${SOURCE_FILES})
 target_link_libraries(run.x ${SCL})
